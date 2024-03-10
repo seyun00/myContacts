@@ -60,4 +60,4 @@ const logout = (req,res) => {
   res.redirect("/")
 }
 
-module.exports = {getLogin, loginUser, getRegister, registerUser}
+module.exports = {getLogin, loginUser, getRegister, registerUser, logout}
